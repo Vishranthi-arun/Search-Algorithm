@@ -115,7 +115,7 @@ else:
 ```
 
 ## Sample input and output:
-![OUTPUT](.\Ex08.png)
+![OUTPUT](.\Ex08.PNG)
 
 ## Output:
 ### i)Use a linear search method to match the item in a list.
