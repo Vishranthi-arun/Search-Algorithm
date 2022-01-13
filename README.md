@@ -114,9 +114,6 @@ else:
     print("Element not found")
 ```
 
-## Sample input and output:
-![OUTPUT](.\Ex08.PNG)
-
 ## Output:
 ### i)Use a linear search method to match the item in a list.
 ![OUTPUT](./Ex08a.png)
