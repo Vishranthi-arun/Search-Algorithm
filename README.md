@@ -17,8 +17,10 @@ To write a program to perform linear search and binary search using python progr
 1.	Set two pointers low and high at the lowest and the highest positions respectively.
 2.	Find the middle element mid of the array ie. arr[(low + high)/2]
 3.	If x == mid, then return mid.Else, compare the element to be searched with m.
-4.	If x > mid, compare x with the middle element of the elements on the right side of mid. This is done by setting low to low = mid + 1.
-5.	Else, compare x with the middle element of the elements on the left side of mid. This is done by setting high to high = mid - 1.
+4.	If x > mid, compare x with the middle element of the elements on the right side of mid. 
+	This is done by setting low to low = mid + 1.
+5.	Else, compare x with the middle element of the elements on the left side of mid. 
+	This is done by setting high to high = mid - 1.
 6.	Repeat steps 2 to 5 until low meets high
 
 ## Program:
@@ -101,13 +103,11 @@ arr = eval(input())
 #sort the array
 arr.sort()
 print(arr)
-# k is the element to be searched for
 k = eval(input()) 
 low=0
 high=len(arr)-1
 # use the binary search function to find the result
 result=BinarySearch(arr, k, low, high)
-# use if-else to print sorted array and "Element not found" if the item is not present in the list otherwise print sorted array and "Element found at index: ", result
 if result>=0:
     print("Element found at index: ",result)
 else:
